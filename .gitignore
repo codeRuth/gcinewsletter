@@ -1,0 +1,6 @@
+bin
+*.pyc
+include
+lib
+local
+pip-sefcheck.json
