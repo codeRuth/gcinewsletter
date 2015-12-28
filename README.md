@@ -4,4 +4,4 @@ This repo is configured to my local system, as I had a very difficult time to de
 
 I've tagged a video to walkthrough the signup process.
 
-https://vid.me/gvcT
+https://vid.me/e/Xds6
