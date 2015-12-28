@@ -19,11 +19,14 @@
 </style>
 <body>
 	<div class='content'>
-		<div class="ui segment stacked">
+		<div class="ui top attached segment">
+			<img src="http://i.imgur.com/mLmsYnc.jpg" alt="Subscribe to my Newsletter">
+		</div>
+		<div class="ui attached segment stacked">
 			<h1><center>{{title}}</center></h1>
 			<form class="ui form" method='POST' action=''>{% csrf_token %}
 				{{formData | crispy}}
-				<center><input class="ui button" type='submit' value={{exitMsg}}></input></center>
+				<center><input class="ui button bottom attached" type='submit' value={{exitMsg}}></input></center>
 			</form>
 		</div>
 	</div>
@@ -31,12 +34,12 @@
 </html>
 <!-- <div class="ui form success">
 	<div class="field">
-			<label>E-mail</label>
-			<input type="email" placeholder="joe@schmoe.com">
+				<label>E-mail</label>
+				<input type="email" placeholder="joe@schmoe.com">
 	</div>
 	<div class="ui success message">
-			<div class="header">Form Completed</div>
-			<p>You're all signed up for the newsletter.</p>
+				<div class="header">Form Completed</div>
+				<p>You're all signed up for the newsletter.</p>
 	</div>
 	<div class="ui submit button">Submit</div>
 </div> -->

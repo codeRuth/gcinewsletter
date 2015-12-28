@@ -21,8 +21,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'dazzlinruthvik@gmail.com'
-EMAIL_HOST_PASSWORD = 'jkcdgzetyiqiuukb'
+EMAIL_HOST_USER = 'upstageshell@gmail.com'
+EMAIL_HOST_PASSWORD = 'ahcezoijvgtponct'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 

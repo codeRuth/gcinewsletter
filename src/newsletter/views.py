@@ -27,8 +27,10 @@ def home(request):
 		fromEmail = settings.EMAIL_HOST_USER
 		toEmail = [email]
 		contactMessage = 'Message from %s'%(fromEmail)
-		someHTMLMessage = """<h1>Hi <b>%s</b> your have applied for a subscription from E-Mail ID <b>%s</b>, Thanks for Signing Up for our Newsletter, We Appreciate it, Remember Expect the Unexpcted
-		via %s</h1>"""%(fullName, email, fromEmail)
+		someHTMLMessage = """
+		<h1>Hi <b>%s</b> your have applied for a subscription from E-Mail ID <b>%s</b>. Thanks for Signing Up for our Newsletter, We Appreciate it.</h1>
+<p>Upstage Shell - %s</p>
+		"""%(fullName, email, fromEmail)
 
 		send_mail(subjectContent, 
 			contactMessage,
